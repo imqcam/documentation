@@ -5,10 +5,11 @@ format: jb-book
 root: docs/intro.md
 
 parts:
-- caption: User's Guide
+- caption: The IMQCAM Data Portal
+  chapters: 
+  - file: docs/data_portal/upload_forms
+- caption: Documentation User's Guide
   chapters:
   - file: docs/markdown
-- caption: Administrator's Guide
-  chapters:
   - file: docs/notebooks
   - file: docs/markdown-notebooks
