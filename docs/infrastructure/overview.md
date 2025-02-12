@@ -10,7 +10,7 @@ needed to understand instrument-collected data. Modeling and simulation data are
 generated on systems used by researchers and transferred to local systems for
 analysis (when feasible). 
 
-The HTMDEC data management and access architecture is illustrated in
+The IMQCAM data management and access architecture is illustrated in
 {numref}`overview-fig`. 
 
 % Source: https://docs.google.com/presentation/d/1sbtmNNwMalviSazailVha-7f7AanXEbKRc3B3X0nDu4/edit#slide=id.g1f9fa2fb4f4_0_4
@@ -18,10 +18,10 @@ The HTMDEC data management and access architecture is illustrated in
 ---
 name: overview-fig
 ---
-High-level overview of the HTMDEC data management architecture.
+High-level overview of the IMQCAM data management architecture.
 ```
 
-The HTMDEC DMS provides a centralized solution for materials research data
+The HTMDEC  provides a centralized solution for materials research data
 management and access designed support experimental and computational research
 activities. The system is designed to support the following:
 
@@ -35,14 +35,14 @@ activities. The system is designed to support the following:
   access control. Containerized interactive analysis environments.
 * **GEMD database**: Specialized model and database for tracking and querying material
   histories.
-* **Tools registry**: All software developed as part of the HTMDEC data
+* **Tools registry**: All software developed as part of the IMQCAM data
   management platform is managed in GitHub repositories.
 
 
 ## Data acquisition
 
 The primary mode of data acquisition is automated, although researchers and data
-managers can always manually curate new data collections through the HTMDEC data
+managers can always manually curate new data collections through the IMQCAM data
 portal. 
 
 Automated data acquisition is achieved through the use of Apache Kafka, an
@@ -89,7 +89,7 @@ accessible by higher-level components and to users through the data portal
 
 The open-source [Girder data management
 platform](https://girder.readthedocs.io/) is extended to meet the specific needs
-of the HTMDEC initiative. Girder provides core abstraction capabilities for data
+of the IMQCAM initiative. Girder provides core abstraction capabilities for data
 organization (files, items, folders, and collections); user management and
 authentication; access control and authorization; and REST-based APIs. Girder's
 plugin architecture simplifies the process of implementing custom user interface
@@ -104,16 +104,16 @@ The [Whole Tale platform](https://docs.wholetale.org/) for transparent and
 reproducible computational research provides access to customizable and
 interactive analysis environments. Researchers can easily launch custom
 containerized environments based on JupyterLab, RStudio, and MATLAB to access and
-analyze HTMDEC data. These composite research objects--called _tales_--can be
+analyze IMQCAM data. These composite research objects--called _tales_--can be
 shared with other users or published to external research repositories.
 
 ## Materials data model
 
-The HTMDEC data management platform has adopted the
+The IMQCAM data management platform has adopted the
 [GEMD](https://citrineinformatics.github.io/gemd-docs/) (Graphical Expression of
 Materials Data) as the primary model for describing and relating materials, the
-processes that produced them, and the measurements that characterize them. All
-HTMDEC seedling data will be modeled and stored via GEMD to facilitate querying
+processes that produced them, and the measurements that characterize them. 
+ All HTMDEC seedling data will be modeled and stored via GEMD to facilitate querying
 and analysis. GEMD data is stored in a separate graph database, referencing
 file assets stored in Girder.
 

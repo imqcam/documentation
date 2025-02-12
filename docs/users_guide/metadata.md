@@ -14,7 +14,7 @@ To add metadata to an item manually in the DMS, select the **plus** button on th
 metadata panel. Select **Simple** for simple key value pairs and **JSON** for
 arbitrary JSON-based metadata.
 
-```{figure} images/htmdec-metadata-simple.png
+```{figure} images/imqcam-metadata-simple.png
 ---
 name: dms-metadata-simple
 ---
@@ -22,7 +22,7 @@ name: dms-metadata-simple
 
 For JSON, specify the **key** name and JSON value:
 
-```{figure} images/htmdec-metadata-json.png
+```{figure} images/imqcam-metadata-json.png
 ---
 name: dms-metadata-json
 ---

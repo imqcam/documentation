@@ -1,21 +1,21 @@
 (wholetale)=
 # Data Analysis 
 
-The HTMDEC data management system uses Whole Tale to provide access to 
+The IMQCAM data management system uses Whole Tale to provide access to 
 customizable, container-based interactive analysis environments such as
 JupyterLab, RStudio, and MATLAB. 
 
 Whole Tale enables the following capabilities for seedling researchers:
-* Interactively analyze and visualized HTMDEC data in the cloud
+* Interactively analyze and visualized IMQCAM data in the cloud
 * Create and share reproducible computational research environments and
   artifacts
 * Configure computational environments with the exact versions of operations
   system and software used to obtain results
 * Publish research artifacts to popular research archives, such as Zenodo
 
-The HTMDEC data portal user interface is illustrated in
+The IMQCAM data portal user interface is illustrated in
 {numref}`wholetale-fig` illustrates the Whole Tale capabilities provided to
-HTMDEC seedling collaborators.  From within the HTMDEC data portal, users can
+IMQCAM seedling collaborators.  From within the IMQCAM data portal, users can
 select data to be analyzed in Whole Tale (a) and browse or share existing tales
 with other users (b). Tales (c) are customizable container images based on comment
 IDEs such as JupyterLab (d).

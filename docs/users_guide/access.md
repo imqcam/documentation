@@ -19,7 +19,7 @@ password for their account
 
 Select the **Users** tab then the **Create user** button:
 
-```{figure} images/htmdec-create-user-button.png
+```{figure} images/imqcam-create-user-button.png
 ---
 name: dms-create-user-button
 ---
@@ -27,7 +27,7 @@ name: dms-create-user-button
 
 This will open the **Create new user** window:
 
-```{figure} images/htmdec-create-user.png
+```{figure} images/imqcam-create-user.png
 ---
 name: dms-create-user
 ---
@@ -69,7 +69,7 @@ create the group.
 Once you have created users and groups, you can manage permissions on
 collections, folders, and files by selecting the **Access control** lock icon.
 
-```{figure} images/htmdec-access-control-button.png
+```{figure} images/imqcam-access-control-button.png
 ---
 name: dms-access-control-button
 ---
@@ -77,7 +77,7 @@ name: dms-access-control-button
 
 This will open the **Access control** window for the selected item:
 
-```{figure} images/htmdec-access-control.png
+```{figure} images/imqcam-access-control.png
 ---
 name: dms-access-control
 ---
