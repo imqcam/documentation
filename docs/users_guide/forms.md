@@ -71,7 +71,7 @@ name: dms-forms-add-entry
 
 This should open a blank form where you can enter the form details.
 
-```{figure} images/htmdec-forms-add-entry-form-blank.png
+```{figure} images/imqcam-forms-add-entry-form-blank.png
 ---
 name: dms-forms-add-entry-form-blank
 ---

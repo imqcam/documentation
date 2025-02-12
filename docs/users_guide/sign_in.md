@@ -3,7 +3,7 @@
 
 The HTMDEC DMS allows you to login using one of the following methods:
 * [Register using your institutional credentials](dms-register-globus) **[Recommended]**
-* [Register a new account in the HTMDEC DMS](dms-register-email)
+* [Register a new account in the NASA IMQCAM](dms-register-email)
 
 Note that after registration or initial login, your account must be approved in
 order to access the system.

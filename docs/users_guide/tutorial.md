@@ -1,7 +1,7 @@
 (tutorial)=
 # Tutorial
 In this tutorial you will:
-* Register and sign in to your DMS account
+* Register and sign in to your IMQCAM account
 * Create a folder and upload a file to the Tutorial collection
 * Create metadata
 * Change permissions 
@@ -10,13 +10,13 @@ In this tutorial you will:
 
 ## Register and sign in
 
-To register to use the DMS, follow the [registration](signing-in) instructions.
+To register to use the IMQCAM Data portal, follow the [registration](signing-in) instructions.
 We recommend that you use existing credentials from one of the supported
 providers (institution, GitHub, ORCID, or Google).
 
 ```{note}
 Once registered, your account will be approved and granted access to the
-Tutorial Collection in the DMS.
+Tutorial Collection in the IMQCAM.
 ```
 
 ## Organizing data
