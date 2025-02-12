@@ -1,7 +1,7 @@
 (dms-install)=
 # Installing
 
-The HTMDEC Data Management System (DMS) can be deployed on a single node or
+The NASA IMQCAM can be deployed on a single node or
 multi-node Docker Swarm cluster. These instructions describe how to deploy the
 system on a single-node system.
 

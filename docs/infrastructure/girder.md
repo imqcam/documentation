@@ -19,8 +19,8 @@ simulations.
 The HTMDEC data portal user interface is illustrated in
 {numref}`data-portal-fig`. Users can currently authenticate (a) using their
 institutional credentials via the Globus Auth and the Oauth2 plugin (note: any
-Oauth2 provider can be configured). Seedling data is organized into collections
-(b) which can be shared with users or groups managed within the system.
+Oauth2 provider can be configured). """ Seedling data is organized into collections
+(b) which can be shared with users or groups managed within the system. """
 Specialized item preview (c) and plugins (d) can be used to enable data-specific
 visualizations and inspection.
 
@@ -38,7 +38,7 @@ seedling-specific data collectins, (c) item preview, and (b) SEM plugins.
 The Girder architecture is illustrated in {numref}`girder-fig`. Girder supports
 storage and access to heterogeneous backend storage engines through a single
 RESTful web API. Storage options include local filesystems, MongoDB databases,
-and S3-compliant stores. For HTMDEC, primary data will generally be stored on a
+and S3-compliant stores. For IMQCAM, primary data will generally be stored on a
 distributed filesystem with metadata and some other assets managed in MongoDB
 and an external graph database for GEMD data.
 
@@ -51,12 +51,11 @@ height: 400px
 Girder data management platform architecture. 
 ```
 
-The Girder worker plugin is used for job execution. Through Whole Tale, HTMDEC
+The Girder worker plugin is used for job execution. Through Whole Tale, IMQCAM
 uses the worker plugin to build container images, manage the container
 lifecycle, and import data.
 
 Additional plugins include:
 * *Oauth2*: User authentication with Oauth2, currently based on Globus
   Authentication
-* *SEM viewer*: Custom HTMDEC plugin to view SEM images and metadata
 * *Whole Tale*: A set of plugins enabling Whole Tale capabilities

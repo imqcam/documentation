@@ -19,10 +19,10 @@ parts:
     sections:
     - file: docs/users_guide/upload_forms
   - file: docs/users_guide/sample_tracker
-- caption: Administrator's Guide
-  chapters:
-  - file: docs/admin/overview
-  - file: docs/admin/install
+# - caption: Administrator's Guide
+#   chapters:
+#   - file: docs/admin/overview
+#   - file: docs/admin/install
 - caption: Architecture
   chapters:
   - file: docs/infrastructure/overview
@@ -31,14 +31,14 @@ parts:
   - file: docs/infrastructure/girder
   - file: docs/infrastructure/wholetale
   - file: docs/infrastructure/github
-- caption: Project Overview
-  chapters:
-  - file: docs/overview
-  - file: docs/seedlings
-    sections:
-    - file: docs/seedlings/jhu/jhu
-    - file: docs/seedlings/tamu/tamu
-    - file: docs/seedlings/northwestern/northwestern
-    - file: docs/case-studies
-  - file: docs/examples
-  - file: docs/references
+# - caption: Project Overview
+#   chapters:
+#   - file: docs/overview
+#   - file: docs/seedlings
+#     sections:
+#     - file: docs/seedlings/jhu/jhu
+#     - file: docs/seedlings/tamu/tamu
+#     - file: docs/seedlings/northwestern/northwestern
+#     - file: docs/case-studies
+#   - file: docs/examples
+#   - file: docs/references

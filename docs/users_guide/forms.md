@@ -21,7 +21,7 @@ name: dms-forms-list
 
 In order to see previously submitted forms, click on the form name to view the entries.
 
-```{figure} images/htmdec-forms-list-selected.png
+```{figure} images/imqcam-forms-list-selected.png
 ---
 name: dms-forms-list-selected
 ---
@@ -29,13 +29,13 @@ name: dms-forms-list-selected
 
 A table with all the entries will be displayed. You can click on the entry to view the entire form with filled values.
 
-```{figure} images/htmdec-forms-entry-selected.png
+```{figure} images/imqcam-forms-entry-selected.png
 ---
 name: dms-forms-entry-selected
 ---
 ```
 
-```{figure} images/htmdec-forms-entry-filled.png
+```{figure} images/imqcam-forms-entry-filled.png
 ---
 name: dms-forms-entry-filled
 ---
@@ -47,13 +47,13 @@ You can navigate back to the list of forms by clicking on the "Forms" tab, or by
 
 Access to form can be controlled by the form owner. The owner can share the form with other users by clicking on the "Access" button ![access](images/access-button.png) at the top right corner of the page.
 
-```{figure} images/htmdec-forms-acls.png
+```{figure} images/imqcam-forms-acls.png
 ---
 name: dms-forms-access-button
 ---
 ```
 
-```{figure} images/htmdec-forms-acls-form.png
+```{figure} images/imqcam-forms-acls-form.png
 ---
 name: dms-forms-access-form
 ---
@@ -63,7 +63,7 @@ name: dms-forms-access-form
 
 To create a new entry for a form, click on the "Add a new entry" button ![add](images/add-button.png) at the top right corner of the page.
 
-```{figure} images/htmdec-forms-add-entry.png
+```{figure} images/imqcam-forms-add-entry.png
 ---
 name: dms-forms-add-entry
 ---
