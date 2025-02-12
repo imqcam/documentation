@@ -6,10 +6,39 @@ root: docs/intro.md
 
 parts:
 - caption: The IMQCAM Data Portal
-  chapters: 
-  - file: docs/data_portal/upload_forms
-- caption: Documentation User's Guide
   chapters:
-  - file: docs/markdown
-  - file: docs/notebooks
-  - file: docs/markdown-notebooks
+  - file: docs/users_guide/overview
+  - file: docs/users_guide/tutorial
+  - file: docs/users_guide/sign_in
+  - file: docs/users_guide/manage
+  - file: docs/users_guide/access
+  - file: docs/users_guide/metadata
+  - file: docs/users_guide/analysis
+  - file: docs/users_guide/dataflows
+  - file: docs/users_guide/forms
+    sections:
+    - file: docs/users_guide/upload_forms
+  - file: docs/users_guide/sample_tracker
+- caption: Administrator's Guide
+  chapters:
+  - file: docs/admin/overview
+  - file: docs/admin/install
+- caption: Architecture
+  chapters:
+  - file: docs/infrastructure/overview
+  - file: docs/infrastructure/gemd
+  - file: docs/infrastructure/openmsi
+  - file: docs/infrastructure/girder
+  - file: docs/infrastructure/wholetale
+  - file: docs/infrastructure/github
+- caption: Project Overview
+  chapters:
+  - file: docs/overview
+  - file: docs/seedlings
+    sections:
+    - file: docs/seedlings/jhu/jhu
+    - file: docs/seedlings/tamu/tamu
+    - file: docs/seedlings/northwestern/northwestern
+    - file: docs/case-studies
+  - file: docs/examples
+  - file: docs/references
