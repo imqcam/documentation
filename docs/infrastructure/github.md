@@ -8,7 +8,6 @@ members as needed.
 
 Software (and documentation) artifacts include:
 * https://github.com/imqcam/documentation - This documentation
-* https://github.com/htmdec/sem_viewer - SEM viewer plugin
 * https://github.com/imqcam/dagster_workflow - Dagster Workflow
 * https://github.com/imqcam/globus_compute - Globus Compute
 * https://github.com/imqcam/processtomicrostructure - Process to Micros
@@ -16,5 +15,4 @@ Software (and documentation) artifacts include:
 * https://github.com/Xarthisius/girder-dataflows - Add support for
   [OpenMSI](https://github.com/openmsi/openmsistream) and
   [Dagster](https://dagster.io/) to Girder
-# * https://github.com/htmdec/ALPSS - Fork of Diamond's ALPSS package for PDV
-  # analysis
+
