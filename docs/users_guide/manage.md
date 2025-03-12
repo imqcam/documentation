@@ -1,7 +1,7 @@
 (manage-data)=
 # Managing Data
 
-This section describes how to manage data in the HTMDEC DMS including
+This section describes how to manage data in the IMQCAM Data portal including
 * [Creating and managing access to collections](manage-collections)
 * [Creating and managing folders](manage-folders)
 * [Uploading folders and files](manage-upload)
@@ -127,16 +127,17 @@ height: 200px
 Now use the ```girder-client``` command line tool to upload:
 
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload REMOTE_PATH_OR_ID LOCAL_PATH
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API-KEY upload --parent-type collection Collection_ID LOCAL_PATH
+
 ```
 
-For example, to upload the local folder "test" to the remote "demo_folder" in the "Demo Collection":
+For example, to upload the local folder "test" to the remote "demo_folder" in the "Demo Collection 1":
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload "/collection/Demo Collection/demo_folder" ./test
-Creating Folder from test
-[####################################]  9.00/9.00  100%  file.txt
-Creating Folder from test/subfolder
-[####################################]  5.00/5.00  100%  file.txt
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload --parent-type collection 67aa40c176r8966f1ef88dee ./Documents/test
+Creating Folder from Documents/test
+[####################################]  6.00k/6.00k  100%  .DS_Store
+Creating Folder from Documents/test/Subfolder
+[####################################]  1.34k/1.34k  100%  image.txt
 ```
 
 (manage-ingest)=
