@@ -1,7 +1,9 @@
 (manage-data)=
+
 # Managing Data
 
-This section describes how to manage data in the IMQCAM portal including
+This section describes how to manage data in the IMQCAM portal including:
+
 * [Creating and managing access to collections](manage-collections)
 * [Creating and managing folders](manage-folders)
 * [Uploading folders and files](manage-upload)
@@ -12,7 +14,7 @@ This section describes how to manage data in the IMQCAM portal including
 ## Collections
 
 Data in the IMQCAM portal is organized into collections with the three main collections relating to Processing (Enclave 1), Multiscale Modeling (Enclave 2), and Q&C (Enclave 3). Collections
-are open for all IMQCAM members but Enclave PIs may request that write access be limited to specific team members. 
+are open for all IMQCAM members but Enclave PIs may request that write access be limited to specific team members.
 
 After [signing in](signing-in) to your account, select the "Collections" link to
 view any collections that you have access to. Select the collection that you
@@ -26,6 +28,7 @@ height: 400px
 ```
 
 (manage-folders)=
+
 ## Creating Folders
 
 To create a new folder, select the dropdown on the right and "Create folder
@@ -39,6 +42,7 @@ height: 200px
 ```
 
 (manage-upload)=
+
 ## Uploading folders and files
 
 To upload a file or folder, select the green upload icon:
@@ -69,8 +73,6 @@ name: dms-upload-allow-fig
 height: 100px
 ---
 ```
-
-
 
 (manage-girder-client)=
 ## Upload files and folder using ```girder-client```
@@ -141,9 +143,9 @@ Creating Folder from test/subfolder
 (manage-ingest)=
 ## Transferring data
 
-
 When data needs to be transferred automatically or continuously, the DMS supports
 several options:
+
 * Direct transfer using the [manage-girder-client](manage-girder-client)
 * Direct transfer using common protocols including SFTP, rsync, or Globus.
 * Automated transfer using [OpenMSIStream](openmsistream)
