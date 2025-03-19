@@ -37,7 +37,6 @@ Key features include:
 * Complete REST-based API (https://data.imqcam.org/api/v1)
 * Python toolkit and command-line utilities 
 
-
 (ug-sec-dashboard)=
 ## Analysis Dashboard
 
