@@ -16,5 +16,3 @@ Software (and documentation) artifacts include:
 * https://github.com/Xarthisius/girder-dataflows - Add support for
   [OpenMSI](https://github.com/openmsi/openmsistream) and
   [Dagster](https://dagster.io/) to Girder
-# * https://github.com/htmdec/ALPSS - Fork of Diamond's ALPSS package for PDV
-  # analysis
