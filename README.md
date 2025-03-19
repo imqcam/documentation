@@ -2,7 +2,8 @@
 
 This public repository contains a [JupyterBook](https://jupyterbook.org/) for the IMQCAM Data Management platform.
 It is automatically built into a Docker image using a GitHub Actions workflow.  The image
-is pushed to a public DockerHub repository, deployed onto the IMQCAM K8s cluster with Keel.sh, 
+is pushed to a public DockerHub repository, deployed onto the IMQCAM K8s cluster with
+[dockerhub-watcher](https://github.com/xarthisius/dockerhub-watcher), 
 and made available at https://docs.imqcam.org. New commits made to the main branch will regenerate the live documentation.
 
 To create a new compatible conda environment:
