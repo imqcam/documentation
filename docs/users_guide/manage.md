@@ -31,7 +31,7 @@ height: 400px
 To create a new folder, select the dropdown on the right and "Create folder
 here":
 
-```{figure} images/htmdec-create-folder.png
+```{figure} images/imqcam-create-folder.png
 ---
 name: dms-create-folder-fig
 height: 200px
@@ -43,7 +43,7 @@ height: 200px
 
 To upload a file or folder, select the green upload icon:
 
-```{figure} images/htmdec-folder-upload-metadata.png
+```{figure} images/imqcam-folder-upload-metadata.png
 ---
 name: dms-upload-button-fig
 height: 200px
@@ -53,7 +53,7 @@ height: 200px
 Using the "Upload files" window, browse or drag-and-drop the files you want to
 upload. Select "Start Upload" to initiate the upload process:
 
-```{figure} images/htmdec-upload-files-folders.png
+```{figure} images/imqcam-upload-files-folders.png
 ---
 name: dms-upload-files-fig
 height: 200px
@@ -77,7 +77,7 @@ height: 100px
 
 It is also possible to upload files and folders from the command line using the
 Python-based ```girder-client``` application. This requires that you configure
-an API Key in the HTMDEC DMS system.
+an API Key in the IMQCAM DMS system.
 
 Install ```girder-client```:
 
@@ -89,7 +89,7 @@ pip install girder-client
 To configure an API key for use with the ```girder-client```, select the "My
 account" option from the user menu:
 
-```{figure} images/htmdec-my-account.png
+```{figure} images/imqcam-my-account.png
 ---
 name: dms-my-account-fig
 height: 200px
@@ -98,7 +98,7 @@ height: 200px
 
 Select the "API keys" tab and then "Create new key":
 
-```{figure} images/htmdec-api-keys.png
+```{figure} images/imqcam-api-keys.png
 ---
 name: dms-api-keys
 height: 200px
@@ -126,12 +126,12 @@ height: 200px
 Now use the ```girder-client``` command line tool to upload:
 
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload REMOTE_PATH_OR_ID LOCAL_PATH
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload REMOTE_PATH_OR_ID LOCAL_PATH
 ```
 
 For example, to upload the local folder "test" to the remote "demo_folder" in the "Demo Collection":
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload "/collection/Demo Collection/demo_folder" ./test
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload "/collection/Demo Collection/demo_folder" ./test
 Creating Folder from test
 [####################################]  9.00/9.00  100%  file.txt
 Creating Folder from test/subfolder
