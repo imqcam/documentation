@@ -1,7 +1,7 @@
 (manage-data)=
 # Managing Data
 
-This section describes how to manage data in the HTMDEC DMS including
+This section describes how to manage data in the IMQCAM portal including
 * [Creating and managing access to collections](manage-collections)
 * [Creating and managing folders](manage-folders)
 * [Uploading folders and files](manage-upload)
@@ -11,9 +11,8 @@ This section describes how to manage data in the HTMDEC DMS including
 (manage-collections)=
 ## Collections
 
-Data in the HTMDEC DMS is organized into per-seedling collections. Collections
-are access controlled, so team members must be granted access to manage data in
-each collection.
+Data in the IMQCAM portal is organized into collections with the three main collections relating to Processing (Enclave 1), Multiscale Modeling (Enclave 2), and Q&C (Enclave 3). Collections
+are open for all IMQCAM members but Enclave PIs may request that write access be limited to specific team members. 
 
 After [signing in](signing-in) to your account, select the "Collections" link to
 view any collections that you have access to. Select the collection that you
