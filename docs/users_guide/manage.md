@@ -63,7 +63,7 @@ height: 200px
 When uploading folders, you may be prompted to allow your browser to upload
 multiple files:
 
-```{figure} images/htmdec-upload-allow.png
+```{figure} images/imqcam-upload-allow.png
 ---
 name: dms-upload-allow-fig
 height: 100px
@@ -107,7 +107,7 @@ height: 200px
 
 Name your API key and keep the default options then select "Create":
 
-```{figure} images/htmdec-api-key-create.png
+```{figure} images/imqcam-api-key-create.png
 ---
 name: dms-api-key-create
 height: 200px
@@ -116,7 +116,7 @@ height: 200px
 
 Click the "show" link to view and copy your key:
 
-```{figure} images/htmdec-api-key-show.png
+```{figure} images/imqcam-api-key-show.png
 ---
 name: dms-api-key-show
 height: 200px

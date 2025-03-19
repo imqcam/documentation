@@ -16,7 +16,7 @@ simulations.
 
 ## User Interface
 
-The HTMDEC data portal user interface is illustrated in
+The IMQCAM data portal user interface is illustrated in
 {numref}`data-portal-fig`. Users can currently authenticate (a) using their
 institutional credentials via the Globus Auth and the Oauth2 plugin (note: any
 Oauth2 provider can be configured). """ Seedling data is organized into collections

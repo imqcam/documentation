@@ -1,2 +1,2 @@
-(htmdec-api)=
+(imqcam-api)=
 # Using the API

@@ -119,7 +119,7 @@ file assets stored in Girder.
 
 ## Data management challenges
 
-The HTMDEC initiative presents distinct challenges for data management.
+The IMQCAM initiative presents distinct challenges for data management.
 Individual seedlings have well-established and often complex local data
 management practices that must be adapted and integrated into a centralized
 model. The success of the initiative requires access to experts within each

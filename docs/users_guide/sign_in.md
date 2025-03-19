@@ -1,7 +1,7 @@
 (signing-in)=
 # Registering
 
-The HTMDEC DMS allows you to login using one of the following methods:
+The IMQCAM DMS allows you to login using one of the following methods:
 * [Register using your institutional credentials](dms-register-globus) **[Recommended]**
 * [Register a new account in the NASA IMQCAM](dms-register-email)
 
@@ -20,7 +20,7 @@ name: dms-login-link-fig
 ---
 ```
 
-Select the "Globus" button. HTMDEC uses Globus Authentication to support
+Select the "Globus" button. IMQCAM uses Globus Authentication to support
 single sign-on using your institutional credentials.
 
 ```{figure} images/imqcam-login-link-globus.png
@@ -53,7 +53,7 @@ Globus Consent
 ```
 
 After logging in using your institutional credentials, your account must be
-approved before you can access the HTMDEC DMS.
+approved before you can access the IMQCAM DTE.
 
 
 
