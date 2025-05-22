@@ -1,7 +1,7 @@
 (metadata)=
 # Adding Metadata
 
-The IMQCAM has a flexible metadata system. Folders and files can be
+The IMQCAM data system has a flexible metadata system. Folders and files can be
 annotated with simple key-value pairs or arbitrary JSON-based metadata
 structures. 
 
@@ -34,7 +34,7 @@ name: dms-metadata-json
 Adding metadata to items in the DMS enables the **Related Data** feature through
 which related items in any collection can be easily connected.
 
-```{figure} images/htmdec-metadata-related-data.png
+```{figure} images/imqcam-metadata-related-data.png
 ---
 name: dms-metadata-related-data
 ---

@@ -6,7 +6,7 @@ acquired data and other research artifacts are stored on local systems for
 analysis or shared using common cloud-based file management tools that are
 ill-suited for research artifact curation.
 
-The IMQCAM provides a centralized portal for the
+The IMQCAM digital twin environment provides a centralized portal for the
 management of data and software artifacts for materials researchers. It consists of
 the following:
 
@@ -36,7 +36,6 @@ Key features include:
 * Authentication using your institutional credentials
 * Complete REST-based API (https://data.imqcam.org/api/v1)
 * Python toolkit and command-line utilities 
-
 
 (ug-sec-dashboard)=
 ## Analysis Dashboard

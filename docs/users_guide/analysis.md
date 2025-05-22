@@ -32,7 +32,7 @@ name: dms-tale-create
 Select the **Run Tale** button to start the selected interactive analysis
 environment:
 
-```{figure} images/htmdec-tale-running.png
+```{figure} images/imqcam-tale-running.png
 ---
 name: dms-tale-running
 ---

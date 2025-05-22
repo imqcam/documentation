@@ -14,5 +14,9 @@ Software (and documentation) artifacts include:
 * https://github.com/whole-tale/synced_folders - Synchronize imported folders
 * https://github.com/Xarthisius/girder-dataflows - Add support for
   [OpenMSI](https://github.com/openmsi/openmsistream) and
+<<<<<<< HEAD
   [Dagster](https://dagster.io/) to Girder
 
+=======
+  [Dagster](https://dagster.io/) to Girder
+>>>>>>> origin/main

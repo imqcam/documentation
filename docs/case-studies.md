@@ -1,7 +1,7 @@
 (case-studies-doc)=
 # Case Study Approach
 
-The HTMDEC data management system requirements and design are informed by
+The IMQCAM data management system requirements and design are informed by
 detailed profiles developed for each seedling. We use an informal case study
 approach applying qualitative data collection and analysis techniques. 
 
