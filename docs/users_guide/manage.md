@@ -2,7 +2,7 @@
 
 # Managing Data
 
-This section describes how to manage data in the HTMDEC DMS including:
+This section describes how to manage data in the IMQCAM including:
 * [Creating and managing access to collections](manage-collections)
 * [Creating and managing folders](manage-folders)
 * [Uploading folders and files](manage-upload)
@@ -105,7 +105,7 @@ Select the "API keys" tab and then "Create new key":
 
 ```{figure} images/imqcam-api-keys.png
 ---
-name: dms-api-keys
+name: dms-api-key
 height: 200px
 ---
 ```
@@ -131,7 +131,7 @@ height: 200px
 Now use the ```girder-client``` command line tool to upload:
 
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload SERVER_REMOTE_PATH OR ID "YOUR_LOCAL_PATH"
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload SERVER_REMOTE_PATH OR ID "YOUR_LOCAL_PATH"
 ```
 
 For example, to upload the local folder "test" to the remote "Example" in the "Demo":
@@ -144,7 +144,7 @@ Go inside the Collections, Select the right collection. Eg: Demo
 
 ```{figure} images/imqcam-collection.png
 ---
-name: dms-api-keys
+name: dms-collection-show
 height: 300px
 ---
 ```
@@ -153,7 +153,7 @@ select the right folder eg: Example
 
 ```{figure} images/imqcam-collection-folder.png
 ---
-name: dms-api-keys
+name: dms-folder-show
 height: 300px
 ---
 ```
@@ -161,7 +161,7 @@ height: 300px
 FOR THE GIVEN example the SERVER_REMOTE_PATH is "Demo/Example"
 
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload "/collection/Demo/Example" "./test"
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload "/collection/Demo/Example" "./test"
 
 Creating Folder from test
 [####################################]  9.00/9.00  100%  file.txt
@@ -178,7 +178,7 @@ Go inside the Collections, Select the right collection. Eg: Demo
 
 ```{figure} images/imqcam-collection.png
 ---
-name: dms-api-keys
+name: dms-collection-show
 height: 300px
 ---
 ```
@@ -187,13 +187,13 @@ Copy the last ID from the URL like shown below
 
 ```{figure} images/imqcam-collection-id.png
 ---
-name: dms-api-keys
+name: dms-collection-id
 height: 300px
 ---
 ```
 
 ```
-girder-client --api-url https://data.htmdec.org/api/v1 --api-key API_KEY upload 6839b47028b402e4f5r4 "./test"
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload 6839b47028b402e4f5r4 "./test"
 Creating Folder from test
 [####################################]  9.00/9.00  100%  file.txt
 Creating Folder from test/subfolder
@@ -201,7 +201,7 @@ Creating Folder from test/subfolder
 ```
   
 (manage-ingest)=
-**Transferring data**
+## Transferring data
 
 When data needs to be transferred automatically or continuously, the DMS supports
 several options:
