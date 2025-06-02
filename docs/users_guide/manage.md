@@ -2,8 +2,7 @@
 
 # Managing Data
 
-This section describes how to manage data in the IMQCAM portal including:
-
+This section describes how to manage data in the IMQCAM including:
 * [Creating and managing access to collections](manage-collections)
 * [Creating and managing folders](manage-folders)
 * [Uploading folders and files](manage-upload)
@@ -20,7 +19,7 @@ After [signing in](signing-in) to your account, select the "Collections" link to
 view any collections that you have access to. Select the collection that you
 want to access.
 
-```{figure} images/imqcam-select-collection.png
+```{figure} images/imqcam-collection.png
 ---
 name: dms-collections-fig
 height: 400px
@@ -47,7 +46,7 @@ height: 200px
 
 To upload a file or folder, select the green upload icon:
 
-```{figure} images/imqcam-folder-upload-metadata.png
+```{figure} images/imqcam-collection-uploader.png
 ---
 name: dms-upload-button-fig
 height: 200px
@@ -57,7 +56,7 @@ height: 200px
 Using the "Upload files" window, browse or drag-and-drop the files you want to
 upload. Select "Start Upload" to initiate the upload process:
 
-```{figure} images/imqcam-upload-files-folders.png
+```{figure} images/imqcam-upload-files.png
 ---
 name: dms-upload-files-fig
 height: 200px
@@ -87,6 +86,10 @@ Install ```girder-client```:
 pip install girder-client
 ```
 
+```{note}
+The girder-client version shoulb be >3.x.x
+Check using this command: ```pip show girder-client```
+```
 
 To configure an API key for use with the ```girder-client```, select the "My
 account" option from the user menu:
@@ -102,7 +105,7 @@ Select the "API keys" tab and then "Create new key":
 
 ```{figure} images/imqcam-api-keys.png
 ---
-name: dms-api-keys
+name: dms-api-key
 height: 200px
 ---
 ```
@@ -128,18 +131,75 @@ height: 200px
 Now use the ```girder-client``` command line tool to upload:
 
 ```
-girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload REMOTE_PATH_OR_ID LOCAL_PATH
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload SERVER_REMOTE_PATH OR ID "YOUR_LOCAL_PATH"
 ```
 
-For example, to upload the local folder "test" to the remote "demo_folder" in the "Demo Collection":
+For example, to upload the local folder "test" to the remote "Example" in the "Demo":
+
+### Upload with help of SERVER_REMOTE_PATH: 
+
+**How to get the path:**
+
+Go inside the Collections, Select the right collection. Eg: Demo
+
+```{figure} images/imqcam-collection.png
+---
+name: dms-collection-show
+height: 300px
+---
 ```
-girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload "/collection/Demo Collection/demo_folder" ./test
+
+select the right folder eg: Example
+
+```{figure} images/imqcam-collection-folder.png
+---
+name: dms-folder-show
+height: 300px
+---
+```
+
+FOR THE GIVEN example the SERVER_REMOTE_PATH is "Demo/Example"
+
+```
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload "/collection/Demo/Example" "./test"
+
 Creating Folder from test
 [####################################]  9.00/9.00  100%  file.txt
 Creating Folder from test/subfolder
 [####################################]  5.00/5.00  100%  file.txt
 ```
 
+
+### Upload with help of ID:
+
+**How to get the ID:**
+
+Go inside the Collections, Select the right collection. Eg: Demo
+
+```{figure} images/imqcam-collection.png
+---
+name: dms-collection-show
+height: 300px
+---
+```
+
+Copy the last ID from the URL like shown below
+
+```{figure} images/imqcam-collection-id.png
+---
+name: dms-collection-id
+height: 300px
+---
+```
+
+```
+girder-client --api-url https://data.imqcam.org/api/v1 --api-key API_KEY upload 6839b47028b402e4f5r4 "./test"
+Creating Folder from test
+[####################################]  9.00/9.00  100%  file.txt
+Creating Folder from test/subfolder
+[####################################]  5.00/5.00  100%  file.txt
+```
+  
 (manage-ingest)=
 ## Transferring data
 
