@@ -1,6 +1,6 @@
 (e2intro)=
 
-#  Enclave 2 Multiscale Modeling of Properties, Performance & Life Profile
+#  Enclave 2: Multiscale Modeling of Properties, Performance & Life Profile
 
 
 ```{note}
