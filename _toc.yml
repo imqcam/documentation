@@ -19,9 +19,10 @@ parts:
     sections:
     - file: docs/users_guide/upload_forms
   - file: docs/users_guide/sample_tracker
-# - caption: "Enclaves: Defining the IMQCAM Digital Twin Workflow/ Pipeline"
-#   chapters:
-#   - file: docs/enclaves/enclave1/e1intro
+- caption: "Clusters: Defining the IMQCAM Digital Twin Workflow/ Pipeline"
+  chapters:
+  - file: docs/Clusters/cluster1/e1intro
+  - file: docs/Clusters/cluster1/porosity_model
 #   - file: docs/enclaves/enclave2/e2intro
 #   - file: docs/enclaves/enclave3/e3intro
 # - caption: Administrator's Guide
