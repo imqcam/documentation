@@ -5,11 +5,11 @@
 ```
 ## Overview
 
-**Cluster1: Process Modeling** is responsible for activities that print, process, and characterize samples as well as simulation modeling that focuses on the printing and processing parameters. Cluster 1 guides the manufacturing process to understand its influence on the resulting material state. The outputs from this cluster serve as essential inputs for downstream modeling activities, particularly those in Enclave 2.
+**Cluster1: Process Modeling** is responsible for activities that print, process, and characterize samples as well as simulation modeling that focuses on the printing and processing parameters. Cluster 1 guides the manufacturing process to understand its influence on the resulting material state. The outputs from this cluster serve as essential inputs for downstream modeling activities, particularly those in Cluster 2.
 
 ## Deliverables
 
-The primary deliverables identified for this enclave, as inputs to Enclave 2, are **location-specific statistics related to microstructure and defects**, explicitly defined as a function of process parameters.
+The primary deliverables identified for this cluster, as inputs to Cluster 2, are **location-specific statistics related to microstructure and defects**, explicitly defined as a function of process parameters.
 
 ### Location-Specific Microstructural Statistics (Function of Process Parameters)
 
