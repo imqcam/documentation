@@ -12,6 +12,7 @@ parts:
   - file: docs/users_guide/sign_in
   - file: docs/users_guide/manage
   - file: docs/users_guide/access
+  - file: docs/users_guide/review
   - file: docs/users_guide/metadata
   - file: docs/users_guide/analysis
   - file: docs/users_guide/dataflows
