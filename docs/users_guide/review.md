@@ -2,7 +2,7 @@
 # Peer Review Access
 
 When you submit a manuscript, a journal will often ask for the underlying data. Peer review
-access lets you hand a whole collection to reviewers who have no HTMDEC DMS account, using a
+access lets you hand a whole collection to reviewers who have no IMQCAM DMS account, using a
 single access key, without making the data public and without creating accounts for people
 whose names you may not even know.
 
@@ -91,7 +91,7 @@ Ending a review does not touch your data, and it can be done more than once safe
 ## Reviewing a collection
 
 If you have been given an access key, go to
-[https://data.htmdec.org/#review](https://data.htmdec.org/#review) and enter it:
+[https://data.imqcam.org/#review](https://data.imqcam.org/#review) and enter it:
 
 ```{figure} images/htmdec-review-key-entry.png
 ---
@@ -99,11 +99,11 @@ name: dms-review-key-entry
 ---
 ```
 
-You do not need an HTMDEC DMS account, and you do not need to register. The key is all that
+You do not need an IMQCAM DMS account, and you do not need to register. The key is all that
 is required.
 
 ```{note}
-If you are already signed in to the HTMDEC DMS in the same browser, starting a review session
+If you are already signed in to the IMQCAM DMS in the same browser, starting a review session
 replaces that sign-in. Use a private or incognito window to keep both.
 ```
 
@@ -150,10 +150,10 @@ A review session **can**:
 
 A review session **cannot**:
 
-* change, add, delete or rename anything, anywhere in the HTMDEC DMS
+* change, add, delete or rename anything, anywhere in the IMQCAM DMS
 * see any other collection that is not already public
 * see who else has access to the collection, or change permissions
-* sign in to the HTMDEC DMS as a normal user — the account behind the key has no password
+* sign in to the IMQCAM DMS as a normal user — the account behind the key has no password
 
 The review page deliberately has no navigation bar. It shows one collection and nothing else,
 so a reviewer is never presented with parts of the system they have no reason to see.

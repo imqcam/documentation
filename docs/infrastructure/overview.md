@@ -21,7 +21,7 @@ name: overview-fig
 High-level overview of the IMQCAM data management architecture.
 ```
 
-The HTMDEC  provides a centralized solution for materials research data
+The IMQCAM  provides a centralized solution for materials research data
 management and access designed support experimental and computational research
 activities. The system is designed to support the following:
 
@@ -113,9 +113,6 @@ The IMQCAM data management platform has adopted the
 [GEMD](https://citrineinformatics.github.io/gemd-docs/) (Graphical Expression of
 Materials Data) as the primary model for describing and relating materials, the
 processes that produced them, and the measurements that characterize them. 
- All HTMDEC seedling data will be modeled and stored via GEMD to facilitate querying
-and analysis. GEMD data is stored in a separate graph database, referencing
-file assets stored in Girder.
 
 ## Data management challenges
 

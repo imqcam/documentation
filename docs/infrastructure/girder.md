@@ -29,7 +29,7 @@ visualizations and inspection.
 ---
 name: data-portal-fig
 ---
-HTMDEC data portal user interface including (a) authentication with Oauth2, (b)
+IMQCAM data portal user interface including (a) authentication with Oauth2, (b)
 seedling-specific data collectins, (c) item preview, and (b) SEM plugins.
 ```
 

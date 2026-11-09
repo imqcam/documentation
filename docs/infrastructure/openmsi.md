@@ -31,13 +31,3 @@ Kafka is a publish-subscribe based messaging system with four main concepts:
 OpenMSIStream implements producers and consumers specific to materials research
 practices including DataFileUploadDirectory, DataFileDownloadDirectory, and
 DataFileStreamProcessor.
-
-
-`````{admonition} Example
-:class: tip
-For the laser shock PDV analysis at JHU, a `DataFileUploadDirectory` service
-runs on the PDV system. Researchers copy datafiles to a specific directory and
-they are streamed to a Kafka topic. A set of DataFileStreamProcessors run on the
-HTMDEC platform to (1) acquire and organize the raw waveform data and (2) run
-the PDV analysis software for the anlaysis of spall signals.
-```
